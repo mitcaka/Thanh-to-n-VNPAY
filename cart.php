@@ -107,7 +107,7 @@ and open the template in the editor.
             <?php } else { ?>
                 <a href="index.php">Trang chủ</a>
                 <h1>Giỏ hàng</h1>
-                <form id="cart-form" action="cart.php?action=submit" method="POST">
+                <form id="cart-form" action="/vnpay_php/vnpay_create_payment.php" method="POST">
                     <table>
                         <tr>
                             <th class="product-number">STT</th>
